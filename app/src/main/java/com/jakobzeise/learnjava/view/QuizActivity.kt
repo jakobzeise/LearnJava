@@ -55,33 +55,33 @@ class QuizActivity : AppCompatActivity() {
         Quiz(
             mutableListOf(
                 "What is inside a variable?",
-                "How do you store integers?",
-                "There are three steps to declare a variable which of these is not a step?",
+                "How do you store numbers?",
+                "There are three steps to create a variable which of these is not a step?",
             ),
             mutableListOf(
-                "Giving Instructions",
-                "C++",
-                "One Year"
+                "Data",
+                "Variables",
+                "Type"
             ),
             mutableListOf(
-                "Playing Piano",
-                "Java",
-                "A Month"
+                "Storage space",
+                "Integer variable",
+                "Name"
             ),
             mutableListOf(
                 "Mind Reading",
                 "Kotlin",
-                "It Depends On Yourself"
+                "value"
             ),
             mutableListOf(
-                "Playing Soccer",
-                "Python",
-                "10 Years"
+                "Code",
+                "C++",
+                "Storage"
             ),
             mutableListOf(
-                "Giving Instructions",
-                "Java",
-                "It Depends On Yourself"
+                "Data",
+                "Integers variables",
+                "Storage"
             )
         ),
 
