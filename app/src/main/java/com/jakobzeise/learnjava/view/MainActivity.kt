@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
                 2,
                 "Variables",
                 "Learn about rules of creating variables\n" +
-                        "5min und ungefähr "
+                        "6min "
             )
         )
 
