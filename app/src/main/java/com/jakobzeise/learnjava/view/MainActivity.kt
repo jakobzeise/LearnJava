@@ -2,6 +2,7 @@ package com.jakobzeise.learnjava.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.jakobzeise.learnjava.R
 import com.jakobzeise.learnjava.modell.Chapters
@@ -12,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        android.widget.Toast.makeText(this, "This is a test", Toast.LENGTH_SHORT).show()
 
         //List for the Chapters in the MainActivity
         val listOfChapters = mutableListOf<Chapters>()
