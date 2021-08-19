@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.CongratulationsActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/congratulationAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewCongratulation"
+        app:layout_constraintStart_toStartOf="@+id/textViewCongratulation"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCongratulation"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true" />
+
+    <TextView
+        android:id="@+id/textViewCongratulation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/congratulations"
+        android:textColor="@color/ugly_green"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewCongratulationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/textview"
+        app:layout_constraintEnd_toEndOf="@+id/congratulationAnimation"
+        app:layout_constraintStart_toStartOf="@+id/congratulationAnimation"
+        app:layout_constraintTop_toBottomOf="@+id/congratulationAnimation" />
+
+    <Button
+        android:id="@+id/buttonShareProgressCongratulation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/green"
+        android:text="@string/share_progress"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewCongratulationText"
+        app:layout_constraintStart_toStartOf="@+id/textViewCongratulationText"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCongratulationText" />
+
+    <Button
+        android:id="@+id/buttonGoHomeCongratulation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/green"
+        android:text="@string/go_home"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/buttonShareProgressCongratulation"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonShareProgressCongratulation"
+        app:layout_constraintTop_toBottomOf="@+id/buttonShareProgressCongratulation"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
