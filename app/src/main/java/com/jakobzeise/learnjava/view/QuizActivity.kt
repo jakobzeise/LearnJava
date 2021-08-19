@@ -258,32 +258,32 @@ class QuizActivity : AppCompatActivity() {
         //Chapter 8 Comments
         Quiz(
             mutableListOf(
-                "What is programming?",
+                "What are  comments?",
                 "What language are you learning?",
                 "How long does it take to learn programming?",
             ),
             mutableListOf(
-                "Giving Instructions",
+                "A statement executing by the compiler and interpreter",
                 "C++",
                 "One Year"
             ),
             mutableListOf(
-                "Playing Piano",
+                "Statement",
                 "Java",
                 "A Month"
             ),
             mutableListOf(
-                "Mind Reading",
+                "A Message",
                 "Kotlin",
                 "It Depends On Yourself"
             ),
             mutableListOf(
-                "Playing Soccer",
+                "Statements are not executing by the compiler and interpreter",
                 "Python",
                 "10 Years"
             ),
             mutableListOf(
-                "Giving Instructions",
+                "Statements are not executing by the compiler and interpreter",
                 "Java",
                 "It Depends On Yourself"
             )
