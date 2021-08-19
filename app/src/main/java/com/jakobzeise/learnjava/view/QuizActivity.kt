@@ -13,6 +13,7 @@ import kotlinx.android.synthetic.main.activity_quiz.*
 
 class QuizActivity : AppCompatActivity() {
 
+
     //Quizlist with the Question, PossibleAnswers and Right Answer
     private val quizList = mutableListOf(
 
