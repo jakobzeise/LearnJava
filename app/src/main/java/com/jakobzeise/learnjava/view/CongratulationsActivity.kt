@@ -86,7 +86,7 @@ class CongratulationsActivity : AppCompatActivity() {
                         "you further..."
             ),
 
-        )
+            )
 
         val chapter = intent.getIntExtra("Chapter", 1)
 
@@ -99,7 +99,17 @@ class CongratulationsActivity : AppCompatActivity() {
             }
         }
 
-
+        buttonShareProgressCongratulation.setOnClickListener {
+            val sendIntent = Intent().apply {
+                action = Intent.ACTION_SEND
+                putExtra(
+                    Intent.EXTRA_TEXT,
+                    "I'm just learning programming in LearnJava App: https://google.com I'm astonished by the results! You also must try!"
+                )
+                type = "text/plain"
+            }
+            startActivity(sendIntent)
+        }
 
 
     }

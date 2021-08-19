@@ -13,8 +13,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        android.widget.Toast.makeText(this, "This is a test", Toast.LENGTH_SHORT).show()
-
         //List for the Chapters in the MainActivity
         val listOfChapters = mutableListOf<Chapters>()
 
@@ -32,7 +30,7 @@ class MainActivity : AppCompatActivity() {
                 2,
                 "Variables",
                 "Learn about rules of creating variables\n" +
-                        "6min "
+                        "6min"
             )
         )
 
