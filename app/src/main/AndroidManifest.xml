@@ -11,8 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnJava">
-        <activity android:name=".view.CongratulationsActivity"></activity>
-        <activity android:name=".view.QuizActivity2" />
+        <activity android:name=".view.CongratulationsActivity" />
         <activity android:name=".view.QuizActivity" />
         <activity android:name=".view.LearningActivity" />
         <activity android:name=".view.MainActivity">

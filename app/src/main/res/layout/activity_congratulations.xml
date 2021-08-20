@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.CongratulationsActivity">
+    tools:context=".view.CongratulationsActivity"
+    >
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/congratulationAnimation"
@@ -30,9 +31,11 @@
 
     <TextView
         android:id="@+id/textViewCongratulationText"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textAlignment="center"
         android:text="@string/textview"
         app:layout_constraintEnd_toEndOf="@+id/congratulationAnimation"
         app:layout_constraintStart_toStartOf="@+id/congratulationAnimation"
@@ -42,8 +45,9 @@
         android:id="@+id/buttonShareProgressCongratulation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp"
+       android:layout_marginEnd="20dp"
+        android:layout_marginTop="75dp"
         android:backgroundTint="@color/green"
         android:text="@string/share_progress"
         android:textSize="24sp"
@@ -55,7 +59,8 @@
         android:id="@+id/buttonGoHomeCongratulation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
         android:backgroundTint="@color/green"
         android:text="@string/go_home"
         android:textSize="24sp"

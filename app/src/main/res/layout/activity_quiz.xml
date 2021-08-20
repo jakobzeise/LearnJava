@@ -14,6 +14,16 @@
         android:orientation="vertical"
         android:padding="16dp">
 
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/backAnimationQuizActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_url="https://assets10.lottiefiles.com/packages/lf20_mfm2v4hs.json" />
+
         <TextView
             android:id="@+id/textViewQuestion"
             android:layout_width="match_parent"
@@ -110,9 +120,9 @@
 
         <Button
             android:id="@+id/submitButtonQuiz"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            android:layout_margin="16dp"
             android:backgroundTint="@color/green"
             android:textSize="24sp"
             android:text="@string/submit"

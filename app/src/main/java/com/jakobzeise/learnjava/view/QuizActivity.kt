@@ -2,7 +2,6 @@ package com.jakobzeise.learnjava.view
 
 import android.annotation.SuppressLint
 import android.content.Intent
-import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -71,7 +70,7 @@ class QuizActivity : AppCompatActivity() {
             mutableListOf(
                 "Mind Reading",
                 "Kotlin",
-                "value"
+                "Value"
             ),
             mutableListOf(
                 "Code",
@@ -80,7 +79,7 @@ class QuizActivity : AppCompatActivity() {
             ),
             mutableListOf(
                 "Data",
-                "Integers variables",
+                "Integers Variables",
                 "Storage"
             )
         ),
@@ -217,7 +216,7 @@ class QuizActivity : AppCompatActivity() {
             mutableListOf(
                 "Giving Instructions",
                 "Java",
-                "It Depends On Yourself"
+                "It depends on yourself"
             )
         ),
 
@@ -436,9 +435,6 @@ class QuizActivity : AppCompatActivity() {
                 //Checks if the first answer is the right one
                 if (textViewOptionOne.text == quizList[chapter].correctAnswer[progressBarQuiz.progress]) {
                     progressBarQuiz.progress = progressBarQuiz.progress + 1
-                    val mediaPlayer: MediaPlayer = MediaPlayer.create(this, R.raw.correct_answer_sound)
-                    mediaPlayer.stop()
-                    mediaPlayer.start()
                     onProgressUpdate()
 
                     //If the first answer is wrong
@@ -451,9 +447,6 @@ class QuizActivity : AppCompatActivity() {
                 //Checks if the first answer is the right one
                 if (textViewOptionTwo.text == quizList[chapter].correctAnswer[progressBarQuiz.progress]) {
                     progressBarQuiz.progress = progressBarQuiz.progress + 1
-                    val mediaPlayer: MediaPlayer = MediaPlayer.create(this, R.raw.correct_answer_sound)
-                    mediaPlayer.stop()
-                    mediaPlayer.start()
                     onProgressUpdate()
 
                     //If the first answer is wrong
@@ -466,9 +459,6 @@ class QuizActivity : AppCompatActivity() {
                 //Checks if the first answer is the right one
                 if (textViewOptionThree.text == quizList[chapter].correctAnswer[progressBarQuiz.progress]) {
                     progressBarQuiz.progress = progressBarQuiz.progress + 1
-                    val mediaPlayer: MediaPlayer = MediaPlayer.create(this, R.raw.correct_answer_sound)
-                    mediaPlayer.stop()
-                    mediaPlayer.start()
                     onProgressUpdate()
 
                     //If the first answer is wrong
@@ -481,9 +471,6 @@ class QuizActivity : AppCompatActivity() {
                 //Checks if the first answer is the right one
                 if (textViewOptionFour.text == quizList[chapter].correctAnswer[progressBarQuiz.progress]) {
                     progressBarQuiz.progress = progressBarQuiz.progress + 1
-                    val mediaPlayer: MediaPlayer = MediaPlayer.create(this, R.raw.correct_answer_sound)
-                    mediaPlayer.stop()
-                    mediaPlayer.start()
                     onProgressUpdate()
 
                     //If the first answer is wrong
@@ -492,6 +479,11 @@ class QuizActivity : AppCompatActivity() {
                     onProgressUpdate()
                 }
             }
+        }
+        backAnimationQuizActivity.setOnClickListener {
+            val goToTutorialIntent = Intent(this, LearningActivity::class.java)
+            goToTutorialIntent.putExtra("Chapter", chapter)
+            startActivity(goToTutorialIntent)
         }
     }
 
@@ -528,4 +520,5 @@ class QuizActivity : AppCompatActivity() {
             startActivity(intentOpenCongratulationsActivity)
         }
     }
+
 }
