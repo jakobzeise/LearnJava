@@ -224,34 +224,48 @@ class QuizActivity : AppCompatActivity() {
         //Chapter 7 Loops
         Quiz(
             mutableListOf(
-                "What is programming?",
-                "What language are you learning?",
-                "How long does it take to learn programming?",
+                "What are loops?",
+                "How do you loop something?",
+                "What does a loop?",
             ),
             mutableListOf(
-                "Giving Instructions",
-                "C++",
-                "One Year"
+                "A loop is used for executing a block of statements repeatedly until a particular condition is satisfied.",
+                "Play piano",
+                "Loop a part of the code"
             ),
             mutableListOf(
-                "Playing Piano",
-                "Java",
-                "A Month"
+                "Comments",
+                "Recreate something",
+                "A loop"
             ),
             mutableListOf(
-                "Mind Reading",
-                "Kotlin",
-                "It Depends On Yourself"
+                "A repeating task",
+                "Write a comment",
+                "Make everything faster"
             ),
             mutableListOf(
-                "Playing Soccer",
-                "Python",
-                "10 Years"
+                "If-Statements",
+                "public class NestedForExample {\n" +
+                        "public static void main(String[] args) {\n" +
+                        "//loop of i.\n" +
+                        "for(int i=1;i<=3;i++){\n" +
+                        "//loop of j.\n" +
+                        "for(int j=1;j<=3;j++){\n" +
+                        "System.out.println(i+\" \"+j);\n" +
+                        "}//end of i.",
+                "Create a layout"
             ),
             mutableListOf(
-                "Giving Instructions",
-                "Java",
-                "It Depends On Yourself"
+                "A loop is used for executing a block of statements repeatedly until a particular condition is satisfied.",
+                "public class NestedForExample {\n" +
+                        "public static void main(String[] args) {\n" +
+                        "//loop of i.\n" +
+                        "for(int i=1;i<=3;i++){\n" +
+                        "//loop of j.\n" +
+                        "for(int j=1;j<=3;j++){\n" +
+                        "System.out.println(i+\" \"+j);\n" +
+                        "}//end of i.",
+                "Loop a part of the code"
             )
         ),
 
@@ -260,32 +274,32 @@ class QuizActivity : AppCompatActivity() {
             mutableListOf(
                 "What are  comments?",
                 "What are not using the comments for?",
-                "How long does it take to learn programming?",
+                "How to make single-line comments?",
             ),
             mutableListOf(
-                "A statement executing by the compiler and interpreter",
+                "A statement executed by the compiler and interpreter",
                 "Provide information",
-                "One Year"
+                ".."
             ),
             mutableListOf(
                 "Statement",
                 "Explanation about any statement",
-                "A Month"
+                "::"
             ),
             mutableListOf(
-                "A Message",
+                "Message",
                 "Explanation about the variable,method or class",
-                "It Depends On Yourself"
+                "//"
+            ),
+            mutableListOf(
+                "Statements not executed by the compiler and interpreter",
+                "To add something",
+                "()"
             ),
             mutableListOf(
                 "Statements are not executing by the compiler and interpreter",
                 "To add something",
-                "10 Years"
-            ),
-            mutableListOf(
-                "Statements are not executing by the compiler and interpreter",
-                "Java",
-                "It Depends On Yourself"
+                "//"
             )
         )
     )
