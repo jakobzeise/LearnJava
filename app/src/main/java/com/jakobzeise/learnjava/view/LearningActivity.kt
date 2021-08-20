@@ -16,46 +16,45 @@ class LearningActivity : AppCompatActivity() {
 
 
         //List for the different tutorials in every chapter
-        val contents = mutableListOf<LearningChapters>()
+        val contents = mutableListOf<LearningChapters>(
 
-        //Chapter 1 Introduction
-        contents.add(
+            //Chapter 1 Introduction
             LearningChapters(
                 mutableListOf(
 
-                    "WHAT IS PROGRAMMING?\n\n" +
-                            "Put simply, programming is\n " +
+                    " WHAT IS PROGRAMMING?\n\n" +
+                            " Put simply, programming is\n " +
                             " giving a set of instructions\n " +
-                            "to a computer to execute.\n " +
-                            "If you’ve ever cooked using \n " +
-                            "a recipe before, you can\n " +
+                            " to a computer to execute.\n " +
+                            " If you’ve ever cooked using \n " +
+                            " a recipe before, you can\n " +
                             " think of yourself as the\n " +
-                            "computer and the recipe’s\n " +
+                            " computer and the recipe’s\n " +
                             " author as a programmer.\n " +
-                            "The recipe author provides\n " +
+                            " The recipe author provides\n " +
                             " you with a set of instructions\n " +
-                            "which you read and then follow.\n " +
+                            " which you read and then follow.\n " +
                             " The more complex the instructions,\n " +
-                            "the more complex the result!\n ",
+                            " the more complex the result!\n ",
 
-                    "Programming is how you get \n " +
-                            "computers to solve problems.\n\n " +
+                    " Programming is how you get \n " +
+                            " computers to solve problems.\n\n " +
 
-                            "There are two key phrases\n " +
+                            " There are two key phrases\n " +
                             " here which are important:\n\n" +
 
-                            "you: without the programmer (you),\n " +
+                            " you: without the programmer (you),\n " +
                             " the computer is useless.\n " +
-                            "It does what you tell it to do.\n\n " +
+                            " It does what you tell it to do.\n\n " +
 
-                            "solve problems:\n " +
-                            "computers are tools.\n " +
-                            "They are complex tools,\n " +
-                            "admittedly, but they are\n" +
+                            " solve problems:\n " +
+                            " computers are tools.\n " +
+                            " They are complex tools,\n " +
+                            " admittedly, but they are\n" +
                             " not mysterious or magical:\n " +
-                            "they exist to make tasks easier.\n\n " +
+                            " they exist to make tasks easier.\n\n " +
 
-                            "Computer programs (or software)\n " +
+                            " Computer programs (or software)\n " +
                             " are what make computers work.\n " +
                             " Without software, modern computers\n " +
                             " are just complicated machines\n " +
@@ -65,7 +64,7 @@ class LearningActivity : AppCompatActivity() {
                             " browser, email, games, movie player\n" +
                             " – just about everything.\n\n" +
 
-                            "Programming is a creative task:\n " +
+                            " Programming is a creative task:\n " +
                             " there is no right or wrong\n " +
                             " way to solve a problem,\n " +
                             " in the same way that there\n " +
@@ -75,7 +74,7 @@ class LearningActivity : AppCompatActivity() {
                             " and one way may seem better\n " +
                             " than another, but that does not\n " +
                             " mean the other is wrong!\n\n " +
-                            "With the right skills and experience,\n " +
+                            " With the right skills and experience,\n " +
                             " a programmer can craft software\n " +
                             " to solve an unlimited number of problems\n " +
                             " – from telling you when\n " +
@@ -89,12 +88,9 @@ class LearningActivity : AppCompatActivity() {
                     "https://assets8.lottiefiles.com/packages/lf20_mplxocmr.json",
                     "https://lottiefiles.com/73810-business-idea-animation"
                 )
+            ),
 
-            )
-        )
-
-        //Chapter 2 Variables
-        contents.add(
+            //Chapter 2 Variables
             LearningChapters(
                 mutableListOf(
                     "VARIABLES IN JAVA\n\n" +
@@ -116,18 +112,14 @@ class LearningActivity : AppCompatActivity() {
                             " and boolean for a Boolean\n" +
                             " value (true or false).\n",
                     ""
-
-                    ),
+                ),
                 mutableListOf(
                     "https://assets4.lottiefiles.com/packages/lf20_ko8ud57v.json",
                     "https://lottiefiles.com/73376-scanning-documents"
                 )
+            ),
 
-            )
-        )
-
-        //Chapter 3 Operators
-        contents.add(
+            //Chapter 3 Operators
             LearningChapters(
                 mutableListOf(
                     "WHAT ARE OPERATORS?\n\n" +
@@ -152,13 +144,9 @@ class LearningActivity : AppCompatActivity() {
                     "https://assets6.lottiefiles.com/packages/lf20_wzgyyian.json",
                     "https://assets3.lottiefiles.com/packages/lf20_j1yzugut.json"
                 )
+            ),
 
-
-            )
-        )
-
-        //Chapter 4 Conditional Statements
-        contents.add(
+            //Chapter 4 Conditional Statements
             LearningChapters(
                 mutableListOf(
                     "WHAT IS AN IF STATEMENT?\n\n" +
@@ -173,18 +161,15 @@ class LearningActivity : AppCompatActivity() {
                             " to specify a new condition to test,\n" +
                             " if the first condition is false.\n",
                     ""
-
-                    ),
+                ),
                 mutableListOf(
                     "https://assets7.lottiefiles.com/private_files/lf30_vAtD7F.json",
                     "https://assets9.lottiefiles.com/private_files/lf30_vAtD7F.json"
                 )
+            ),
 
-            )
-        )
+            //Chapter 5 Print
 
-        //Chapter 5 Print
-        contents.add(
             LearningChapters(
                 mutableListOf(
                     "WHAT IS A PRINT STATEMENT?\n\n" +
@@ -200,18 +185,14 @@ class LearningActivity : AppCompatActivity() {
                             " using the string\n" +
                             " concatenation operator + .\n",
                     ""
-
-                    ),
+                ),
                 mutableListOf(
                     "https://assets5.lottiefiles.com/packages/lf20_i7dxj8qw.json",
                     "https://assets9.lottiefiles.com/packages/lf20_k86wxpgr.json"
                 )
+            ),
 
-            )
-        )
-
-        //Chapter 6 String
-        contents.add(
+            //Chapter 6 String
             LearningChapters(
                 mutableListOf(
                     "WHAT ARE STRINGS?\n\n" +
@@ -240,19 +221,14 @@ class LearningActivity : AppCompatActivity() {
                             " where the variable ‘s’ will\n " +
                             " refer to the object in the heap.",
                     ""
-
-                    ),
+                ),
                 mutableListOf(
                     "https://assets5.lottiefiles.com/packages/lf20_hr9whrgf.json",
                     "https://assets7.lottiefiles.com/private_files/lf30_sisdcihk.json"
                 )
+            ),
 
-
-            )
-        )
-
-        //Chapter 7 Loops
-        contents.add(
+            //Chapter 7 Loops
             LearningChapters(
                 mutableListOf(
                     "WHAT ARE LOOPS?\n\n" +
@@ -295,18 +271,14 @@ class LearningActivity : AppCompatActivity() {
                             "Statement: The statement of the loop is executed each time until the second condition is false.",
                     ""
 
-                    ),
+                ),
                 mutableListOf(
                     "https://assets1.lottiefiles.com/packages/lf20_bp5lntrf.json",
                     "https://assets7.lottiefiles.com/packages/lf20_eelepfi9.json"
                 )
+            ),
 
-
-            )
-        )
-
-        //Chapter 8 Comments
-        contents.add(
+            //Chapter 8 Comments
             LearningChapters(
                 mutableListOf(
                     "WHAT ARE COMMENTS?\n\n" +
@@ -342,12 +314,14 @@ class LearningActivity : AppCompatActivity() {
             )
         )
 
+
         //Get the current chapter
         val chapter: Int = intent.extras?.get("Chapter") as Int
 
         //Process = 0
         var process = 0
 
+        animationLearning.setAnimationFromUrl(contents[chapter].animation[process])
 
         //Set the tutorial text and the image of the tutorial
         textViewTutorial.text = contents[chapter].text[process]
@@ -355,14 +329,14 @@ class LearningActivity : AppCompatActivity() {
 
         //Go to tutorial Button
         learningButtonGoToQuiz.setOnClickListener {
-            if(process == 0){
+            if (process == 0) {
                 process++
 
                 textViewTutorial.text = contents[chapter].text[process]
                 animationLearning.setAnimationFromUrl(contents[chapter].animation[process])
                 learningButtonGoToQuiz.text = "Go To Quiz"
 
-            }else{
+            } else {
                 val quizIntent = Intent(this, QuizActivity::class.java)
                 quizIntent.putExtra("Chapter", chapter)
                 startActivity(quizIntent)
@@ -370,7 +344,7 @@ class LearningActivity : AppCompatActivity() {
 
         }
 
-        animationLearning.setAnimationFromUrl(contents[chapter].animation[process])
+
         backAnimationQuizActivity.setOnClickListener {
             val homeIntent = Intent(this, MainActivity::class.java)
             startActivity(homeIntent)
