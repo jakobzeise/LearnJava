@@ -23,70 +23,71 @@ class LearningActivity : AppCompatActivity() {
                 mutableListOf(
 
                     " WHAT IS PROGRAMMING?\n\n" +
-                            " Put simply, programming is\n " +
-                            " giving a set of instructions\n " +
-                            " to a computer to execute.\n " +
-                            " If you’ve ever cooked using \n " +
-                            " a recipe before, you can\n " +
-                            " think of yourself as the\n " +
-                            " computer and the recipe’s\n " +
-                            " author as a programmer.\n " +
-                            " The recipe author provides\n " +
-                            " you with a set of instructions\n " +
-                            " which you read and then follow.\n " +
-                            " The more complex the instructions,\n " +
-                            " the more complex the result!\n ",
+                            " Put simply, programming is\n" +
+                            " giving a set of instructions\n" +
+                            " to a computer to execute.\n" +
+                            " If you’ve ever cooked using \n" +
+                            " a recipe before, you can\n" +
+                            " think of yourself as the\n" +
+                            " computer and the recipe’s\n" +
+                            " author as a programmer.\n" +
+                            " The recipe author provides\n" +
+                            " you with a set of instructions\n" +
+                            " which you read and then\n" +
+                            " follow. The more complex\n" +
+                            " the instructions,\n" +
+                            " the more complex the result!\n",
 
-                    " Programming is how you get \n " +
-                            " computers to solve problems.\n\n " +
+                    " Programming is how you get\n" +
+                            " computers to solve problems.\n\n" +
 
-                            " There are two key phrases\n " +
+                            " There are two key phrases\n" +
                             " here which are important:\n\n" +
 
-                            " you: without the programmer (you),\n " +
-                            " the computer is useless.\n " +
-                            " It does what you tell it to do.\n\n " +
+                            " you: without the programmer (you),\n" +
+                            " the computer is useless.\n" +
+                            " It does what you tell it to do.\n\n" +
 
-                            " solve problems:\n " +
-                            " computers are tools.\n " +
-                            " They are complex tools,\n " +
+                            " solve problems:\n" +
+                            " computers are tools.\n" +
+                            " They are complex tools,\n" +
                             " admittedly, but they are\n" +
-                            " not mysterious or magical:\n " +
-                            " they exist to make tasks easier.\n\n " +
+                            " not mysterious or magical:\n" +
+                            " they exist to make tasks easier.\n\n" +
 
-                            " Computer programs (or software)\n " +
-                            " are what make computers work.\n " +
-                            " Without software, modern computers\n " +
-                            " are just complicated machines\n " +
-                            " for turning electricity into heat.\n " +
-                            " It’s software on your computer\n " +
-                            " that runs your operating system,\n " +
+                            " Computer programs (or software)\n" +
+                            " are what make computers work.\n" +
+                            " Without software, modern computers\n" +
+                            " are just complicated machines\n" +
+                            " for turning electricity into heat.\n" +
+                            " It’s software on your computer\n" +
+                            " that runs your operating system,\n" +
                             " browser, email, games, movie player\n" +
                             " – just about everything.\n\n" +
 
-                            " Programming is a creative task:\n " +
-                            " there is no right or wrong\n " +
-                            " way to solve a problem,\n " +
-                            " in the same way that there\n " +
-                            " is no right or wrong way\n " +
-                            " to paint a picture.\n " +
-                            " There are choices to be made,\n " +
-                            " and one way may seem better\n " +
-                            " than another, but that does not\n " +
-                            " mean the other is wrong!\n\n " +
-                            " With the right skills and experience,\n " +
-                            " a programmer can craft software\n " +
-                            " to solve an unlimited number of problems\n " +
-                            " – from telling you when\n " +
-                            " your next train will arrive\n " +
-                            " to playing your favourite music.\n " +
-                            " The possibilities are constrained\n " +
-                            " only by your imagination.\n\n\n " +
+                            " Programming is a creative task:\n" +
+                            " there is no right or wrong\n" +
+                            " way to solve a problem,\n" +
+                            " in the same way that there\n" +
+                            " is no right or wrong way\n" +
+                            " to paint a picture.\n" +
+                            " There are choices to be made,\n" +
+                            " and one way may seem better\n" +
+                            " than another, but that does not\n" +
+                            " mean the other is wrong!\n\n" +
+                            " With the right skills and experience,\n" +
+                            " a programmer can craft software\n" +
+                            " to solve an unlimited number of problems\n" +
+                            " – from telling you when\n" +
+                            " your next train will arrive\n" +
+                            " to playing your favourite music.\n" +
+                            " The possibilities are constrained\n" +
+                            " only by your imagination.\n\n\n" +
                             " That’s why I love programming."
                 ),
                 mutableListOf(
                     "https://assets8.lottiefiles.com/packages/lf20_mplxocmr.json",
-                    "https://lottiefiles.com/73810-business-idea-animation"
+                    "https://assets1.lottiefiles.com/packages/lf20_epkhzavr.json"
                 )
             ),
 
@@ -95,8 +96,8 @@ class LearningActivity : AppCompatActivity() {
                 mutableListOf(
                     "VARIABLES IN JAVA\n\n" +
 
-                            " A Java variable is a piece\n " +
-                            " of memory that can contain\n " +
+                            " A Java variable is a piece\n" +
+                            " of memory that can contain\n" +
                             " a data value. A variable thus has a data type. Data types are covered in more detail in the text on Java data types. Variables are typically used to store information which your Java program needs to do its job.\n\n" +
                             " HOW TO CREATE A VARIABLE?\n\n" +
 
@@ -115,7 +116,7 @@ class LearningActivity : AppCompatActivity() {
                 ),
                 mutableListOf(
                     "https://assets4.lottiefiles.com/packages/lf20_ko8ud57v.json",
-                    "https://lottiefiles.com/73376-scanning-documents"
+                    "https://assets1.lottiefiles.com/packages/lf20_bzqnweae.json"
                 )
             ),
 
@@ -138,7 +139,7 @@ class LearningActivity : AppCompatActivity() {
                             "Increases the value of operand by 1.\n\n" +
                             "-- (Decrement) :\n" +
                             "\tDecreases the value of operand by 1.\n\n",
-                    ""
+                    "This is a test"
                 ),
                 mutableListOf(
                     "https://assets6.lottiefiles.com/packages/lf20_wzgyyian.json",
@@ -196,29 +197,29 @@ class LearningActivity : AppCompatActivity() {
             LearningChapters(
                 mutableListOf(
                     "WHAT ARE STRINGS?\n\n" +
-                            " Strings, which are widely\n " +
-                            " used in Java programming,\n " +
-                            " are a sequence of characters.\n " +
-                            " In the Java programming language,\n " +
-                            " strings are objects\n " +
-                            " The Java platform provides\n " +
+                            " Strings, which are widely\n" +
+                            " used in Java programming,\n" +
+                            " are a sequence of characters.\n" +
+                            " In the Java programming language,\n" +
+                            " strings are objects\n" +
+                            " The Java platform provides\n" +
                             " the String class to create and manipulate strings.\n\n" +
                             " HOW TO CREATE A STRING?\n\n" +
-                            " There are two ways to\n " +
+                            " There are two ways to\n" +
                             " create a String object:\n\n" +
-                            " By string literal :\n " +
-                            " Java String literal\n " +
+                            " By string literal :\n" +
+                            " Java String literal\n" +
                             " is created by using double quotes.\n\n" +
                             " For Example: String s=“Welcome”;\n" +
-                            " By new keyword :\n " +
-                            " Java String is created\n " +
+                            " By new keyword :\n" +
+                            " Java String is created\n" +
                             " by using a keyword “new”.\n" +
-                            " For example:\n " +
+                            " For example:\n" +
                             " String s=new String(“Welcome”);\n" +
-                            " It creates two objects\n " +
-                            " (in String pool and in heap)\n " +
-                            " and one reference variable\n " +
-                            " where the variable ‘s’ will\n " +
+                            " It creates two objects\n" +
+                            " (in String pool and in heap)\n" +
+                            " and one reference variable\n" +
+                            " where the variable ‘s’ will\n" +
                             " refer to the object in the heap.",
                     ""
                 ),
@@ -232,41 +233,41 @@ class LearningActivity : AppCompatActivity() {
             LearningChapters(
                 mutableListOf(
                     "WHAT ARE LOOPS?\n\n" +
-                            "The Java for loop is a\n " +
-                            " control flow statement\n " +
-                            " that iterates a part of\n " +
-                            " the programs multiple times.\n " +
-                            " The Java while loop is a\n " +
-                            " control flow statement\n " +
-                            " that executes a part of\n " +
-                            " the programs repeatedly\n " +
-                            " on the basis of given\n " +
-                            " boolean condition.\n " +
-                            " ... If the number of\n " +
-                            " iteration is fixed,\n " +
-                            " it is recommended\n " +
+                            "The Java for loop is a\n" +
+                            " control flow statement\n" +
+                            " that iterates a part of\n" +
+                            " the programs multiple times.\n" +
+                            " The Java while loop is a\n" +
+                            " control flow statement\n" +
+                            " that executes a part of\n" +
+                            " the programs repeatedly\n" +
+                            " on the basis of given\n" +
+                            " boolean condition.\n" +
+                            " ... If the number of\n" +
+                            " iteration is fixed,\n" +
+                            " it is recommended\n" +
                             " to use for loop.\n\n" +
                             "HOW TO CREATE A LOOP?\n\n" +
-                            "Initialization: It is the\n " +
-                            " initial condition which\n " +
-                            " is executed once when\n " +
-                            " the loop starts.\n " +
-                            " Here, we can initialize\n " +
-                            " the variable, or we can use\n " +
-                            " an already initialized variable.\n " +
+                            "Initialization: It is the\n" +
+                            " initial condition which\n" +
+                            " is executed once when\n" +
+                            " the loop starts.\n" +
+                            " Here, we can initialize\n" +
+                            " the variable, or we can use\n" +
+                            " an already initialized variable.\n" +
                             " It is an optional condition.\n" +
-                            "Condition: It is the second\n " +
-                            " condition which is executed\n " +
-                            " each time to test the\n " +
-                            " condition of the loop.\n " +
-                            " It continues execution\n " +
-                            " until the condition is false.\n " +
-                            " It must return boolean\n " +
-                            " value either true or false.\n " +
+                            "Condition: It is the second\n" +
+                            " condition which is executed\n" +
+                            " each time to test the\n" +
+                            " condition of the loop.\n" +
+                            " It continues execution\n" +
+                            " until the condition is false.\n" +
+                            " It must return boolean\n" +
+                            " value either true or false.\n" +
                             " It is an optional condition.\n" +
-                            "Increment/Decrement:\n " +
-                            " It increments or decrements\n " +
-                            " the variable value.\n " +
+                            "Increment/Decrement:\n" +
+                            " It increments or decrements\n" +
+                            " the variable value.\n" +
                             " It is an optional condition.\n" +
                             "Statement: The statement of the loop is executed each time until the second condition is false.",
                     ""
@@ -282,7 +283,7 @@ class LearningActivity : AppCompatActivity() {
             LearningChapters(
                 mutableListOf(
                     "WHAT ARE COMMENTS?\n\n" +
-                            " Comments in Java are the\n " +
+                            " Comments in Java are the\n" +
                             " statements that are not\n" +
                             " executed by the compiler\n" +
                             " and interpreter.\n" +
@@ -335,6 +336,7 @@ class LearningActivity : AppCompatActivity() {
                 textViewTutorial.text = contents[chapter].text[process]
                 animationLearning.setAnimationFromUrl(contents[chapter].animation[process])
                 learningButtonGoToQuiz.text = "Go To Quiz"
+                scrollViewLearningActivity.scrollY = 0;
 
             } else {
                 val quizIntent = Intent(this, QuizActivity::class.java)
